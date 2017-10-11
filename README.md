@@ -5,13 +5,16 @@ This is a demo package of the Hera release of the [Ceres farm operating system](
 The Hera release is an exploratory experiment to figure out what kind of a low-cost IoT infrastructure is required to delopy AI-based precision farming across farms in emerging countries. The experiments in architecture, platforms & technologies here, are the intial steps toward a highly distributed, remotely deployable IoT host operating system running on a broad set of real-time OS (including Arduino, RTOS, Windows-Embedded & Linux), spread across farms in the emerging countries.
 
 ### Related Reading
+#### Artificial Intelligence & IoT
 * [How sensors, robotics and artificial intelligence will transform agriculture](https://www.forbes.com/sites/jenniferhicks/2017/03/19/how-sensors-robotics-and-artificial-intelligence-will-transform-agriculture/#631a05cf384b)
 * [Can artiticial intelligence help feed the world](https://www.forbes.com/sites/themixingbowl/2017/09/05/can-artificial-intelligence-help-feed-the-world/#296b806c46db)
 * [When artificial intelligence met peach](www.bbc.co.uk/news/world-asia-china-41479282)
-* [Our dying rivers](http://isha.sadhguru.org/rally-for-rivers/our-dying-rivers/)
 * [Drones, tractor hacks and robotic sprayers: the technology of farming](www.cbc.ca/news/technology/farming-technology-advances-1.4290569)
 * [John Deere is plowing IoT into its farm equipment](https://www.networkworld.com/article/3071340/internet-of-things/john-deere-is-plowing-iot-into-its-farm-equipment.html)
 * [A Skunk Works with tractors: Inside John Deere’s IoT-innovation unit](https://www.networkworld.com/article/3198744/internet-of-things/a-skunk-works-with-tractors-inside-john-deere-s-high-tech-iot-innovation-unit.html)
+
+#### Food Secuity & Impact of Climate Change
+* [Our dying rivers](http://isha.sadhguru.org/rally-for-rivers/our-dying-rivers/)
 
 ## Objective
 Hera is a feasibility study for Zeus, that answers the following questions:
