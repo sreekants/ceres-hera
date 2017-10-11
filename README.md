@@ -27,7 +27,7 @@ Hera is a feasibility study for Zeus, that answers the following questions:
 * Is it possible to automate a farm at $0.1/sqft?
 
 ## Conclusions
-We are now optimistic that the objectives can be achieved. However, we will need to significantly modify our original ar
+We are now optimistic that the objectives can be achieved. However, we will need to significantly modify our original architecture.
 
 ## Status
 ### Phase 1 - Skunkworks/Technology Evaluation (Aug-Oct 2017)
