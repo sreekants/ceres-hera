@@ -30,7 +30,14 @@ Hera is a feasibility study for Zeus, that answers the following questions:
 We are now optimistic that the objectives can be achieved. However, we will need to significantly modify our original ar
 
 ## Status
+### Phase 1 - Skunkworks/Technology Evaluation (Aug-Oct 2017)
+
+*Status - Architecture unsatisfactory.*
+
 A prototypical version of Hera has been developed as part of Ceres (version 0.3). This however has not achieved our design goals. The implementation of Ceres on ESP8266, our target platform needs to be significantly optimized. Memory limitations on the ESP8266 significantly curtails the implementation of our solution. We are looking into topograpical, architectural and/or platform (move to ESP32) changes to work around the limitations. 
+
+
+### Phase 2 - Initial Implementation (Jan-Apr 2018)
 
 ## Package
 Included in this package are: 
