@@ -1,6 +1,8 @@
 # Ceres (Hera-Release)
 This is a demo package of the Hera release of the [Ceres farm operating system](https://www.openhub.net/p/ceres-os). 
 
+The Ceres project is an exploratory experiment to figure out a low-cost turnkey infrastructure in a national scale can avert the scourge of climate change in the poorest of countries around the world. Although this is an Indian story, there is a resonance of the same challenges across Equatorial & Sub-Saharan Africa, South-Asia, Latin America & South East Asia.
+
 ## Introduction
 The Hera release is an exploratory experiment to figure out what kind of a low-cost IoT infrastructure is required to delopy AI-based precision farming across farms in emerging countries. The experiments in architecture, platforms & technologies here, are the intial steps toward a highly distributed, remotely deployable IoT host operating system running on a broad set of real-time OS (including Arduino, RTOS, Windows-Embedded & Linux), spread across farms in the emerging countries.
 
@@ -15,6 +17,8 @@ The Hera release is an exploratory experiment to figure out what kind of a low-c
 
 #### Food Secuity & Impact of Climate Change
 * [Our dying rivers](http://isha.sadhguru.org/rally-for-rivers/our-dying-rivers/)
+* [After 47 years, water level hits rock bottom at KRS](http://m.deccanherald.com/articles.php?name=http%3A%2F%2Fwww.deccanherald.com%2Fcontent%2F572645%2Fafter-47-years-water-level.html)
+* [Depleting water level in Neyyar dam raises concerns](https://timesofindia.indiatimes.com/city/thiruvananthapuram/Depleting-water-level-in-Neyyar-dam-raises-concern/articleshow/56262674.cms)
 
 ## Objective
 Hera is a feasibility study for Zeus, that answers the following questions:
