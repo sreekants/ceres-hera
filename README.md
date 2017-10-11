@@ -32,12 +32,15 @@ We are now optimistic that the objectives can be achieved. However, we will need
 ## Status
 ### Phase 1 - Skunkworks/Technology Evaluation (Aug-Oct 2017)
 
-*Status - Architecture unsatisfactory.*
+*Status - Architecture unsatisfactory. (as of Oct 12, 2017)*
 
 A prototypical version of Hera has been developed as part of Ceres (version 0.3). This however has not achieved our design goals. The implementation of Ceres on ESP8266, our target platform needs to be significantly optimized. Memory limitations on the ESP8266 significantly curtails the implementation of our solution. We are looking into topograpical, architectural and/or platform (move to ESP32) changes to work around the limitations. 
 
+We are abandoning our current design and going back to the drawing board.
 
-### Phase 2 - Initial Implementation (Jan-Apr 2018)
+### Phase 2 - Hera Re-Implementation (Jan-Apr 2018)
+
+*Status - Unplanned (as of Oct 12, 2017)* 
 
 ## Package
 Included in this package are: 
