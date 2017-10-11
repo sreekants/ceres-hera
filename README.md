@@ -7,15 +7,20 @@ The Hera release is an exploratory experiment to figure out what kind of a low-c
 ### Related Reading
 * [How sensors, robotics and artificial intelligence will transform agriculture](https://www.forbes.com/sites/jenniferhicks/2017/03/19/how-sensors-robotics-and-artificial-intelligence-will-transform-agriculture/#631a05cf384b)
 * [Can artiticial intelligence help feed the world](https://www.forbes.com/sites/themixingbowl/2017/09/05/can-artificial-intelligence-help-feed-the-world/#296b806c46db)
-* [When artifiial intelligence met peach](www.bbc.co.uk/news/world-asia-china-41479282)
+* [When artificial intelligence met peach](www.bbc.co.uk/news/world-asia-china-41479282)
 * [Our dying rivers](http://isha.sadhguru.org/rally-for-rivers/our-dying-rivers/)
-
+* [Drones, tractor hacks and robotic sprayers: the technology of farming](www.cbc.ca/news/technology/farming-technology-advances-1.4290569)
+* [John Deere is plowing IoT into its farm equipment](https://www.networkworld.com/article/3071340/internet-of-things/john-deere-is-plowing-iot-into-its-farm-equipment.html)
+* [A Skunk Works with tractors: Inside John Deere’s IoT-innovation unit](https://www.networkworld.com/article/3198744/internet-of-things/a-skunk-works-with-tractors-inside-john-deere-s-high-tech-iot-innovation-unit.html)
 
 ## Objective
 Hera is a feasibility study for Zeus, that answers the following questions:
 * Is it possible to automate a remote rural farm entirely using IoT?
 * It it possible to remotely administer, upgrade and reprovision it entirely through mobile phone or internet?
 * Is it possible to automate a farm at $0.1/sqft?
+
+## Conclusions
+We are now optimistic that the objectives can be achieved. However, we will need to significantly modify our original ar
 
 ## Status
 A prototypical version of Hera has been developed as part of Ceres (version 0.3). This however has not achieved our design goals. The implementation of Ceres on ESP8266, our target platform needs to be significantly optimized. Memory limitations on the ESP8266 significantly curtails the implementation of our solution. We are looking into topograpical, architectural and/or platform (move to ESP32) changes to work around the limitations. 
