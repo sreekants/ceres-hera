@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Ceres (Hera Release)
-This is a demo package of the Hera release of the Ceres operating system. 
-=======
 # Ceres (Hera-Release)
 This is a demo package of the Hera release of the [Ceres farm operating system](https://www.openhub.net/p/ceres-os). 
 
@@ -38,13 +34,14 @@ We are now optimistic that the objectives can be achieved. However, we will need
 
 *Status - Architecture unsatisfactory. (as of Oct 12, 2017)*
 
-A prototypical version of Hera has been developed as part of Ceres (version 0.3). This however has not achieved our design goals. The implementation of Ceres on ESP8266, our target platform needs to be significantly optimized. Memory limitations on the ESP8266 significantly curtails the implementation of our solution. We are looking into topograpical, architectural and/or platform (move to ESP32) changes to work around the limitations. 
+A prototypical version of Hera has been developed as part of Ceres (version 0.3). This however has not achieved our design goals. The implementation of Ceres on ESP8266, our target platform needs to be significantly optimized. Memory limitations on the ESP8266 significantly curtails the implementation of our solution. We are looking into topograpical, architectural and/or platform (move to ESP32) changes to work around the limitations. The current image is unstable because it uses 78% of the global memory. The Hera version will need to be trimmed down by another 20% for it to be considered stable.
 
-We are abandoning our current design and going back to the drawing board.
+We are abandoning our current design and going back to the drawing board. 
 
 ### Phase 2 - Hera Re-Implementation (Jan-Apr 2018)
 
 *Status - Unplanned (as of Oct 12, 2017)* 
+
 
 ## Package
 Included in this package are: 
@@ -63,5 +60,3 @@ For an outline of the project description, checkout the wiki page on [sourceforg
 * [Ceres Farm Operating System - Project Profile](https://www.openhub.net/p/ceres-os)
 * [Empact Foundation Class Library - Project Profile](https://www.openhub.net/p/empact)
 
-
->>>>>>> f1cc26e8fef263ffd7ef83784e17bc54b566259d
