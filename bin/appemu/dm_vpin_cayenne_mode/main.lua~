@@ -1,0 +1,35 @@
+function HandleDevice(dev)
+	Type	= dev.GetOption("Device", "Type")
+	-- Write device specific code here.
+--	if dev.IsReadPending(10) then
+		--val = dev.Receive(1,0)
+		val = 1
+		mq		= System.CreateScriptObject( "Ceres.ServiceBus" )
+		mq.Push("/CropSchedule/Application/CayenneMode", val ,"")
+--	end
+	return 0
+end
+
+
+function init(argv)	
+	ThisProcess.Register("/DeviceManager/CayenneMode/Application")
+
+	ThisProcess.SetTimer(2000)
+	
+	return 0
+end
+
+
+function proc(evt)
+	if evt == "/DeviceManager/CayenneMode/Application" then
+		return 0
+	end
+
+	if evt == "/Timer" then
+		dm	= System.CreateScriptObject( 'Ceres.DeviceManager' )
+		dev	= dm.GetDevice('CayenneMode','')
+		HandleDevice( dev )
+	end
+
+	return 0
+end

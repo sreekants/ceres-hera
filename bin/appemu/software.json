@@ -1,0 +1,68 @@
+{
+	"Drivers":{
+		"dm_pump":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		},
+		"dm_temp":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		
+		},
+		"dm_soilmoist":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		
+		},
+		"dm_vpin_cayenne_temp":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		
+		},
+		"dm_vpin_cayenne_soil":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		},
+		"dm_vpin_cayenne_mode":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		},
+		"dm_vpin_cayenne_pump":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		},
+		"dm_vpin_cayenne_pump_time":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		}
+
+	},
+	"Services":{
+	},
+	"Applications":{
+		"CropSchedule":{
+			"Image":"main.lua",
+			"Arguments":"",
+			"WorkingFolder":"",
+			"Path":""
+		}
+	}
+}
+
+

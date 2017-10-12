@@ -1,0 +1,28 @@
+{
+  "START": {
+    "mos_high": "ON",
+    "mos_low": "START",
+    "suspend": "STOP",
+    "error": "ERROR",
+    "manual_on" : "ON"
+  },
+  "ON": {
+    "mos_low": "OFF",
+    "suspend": "STOP",
+    "time_out": "OFF",
+    "error": "ERROR",
+    "manual_off": "OFF"
+  },
+  "OFF": {
+    "mos_high": "ON",
+    "suspend": "STOP",
+    "error": "ERROR",
+    "manual_on": "ON"
+  },
+  "STOP": {
+    "play": "START"
+  },
+  "ERROR": {
+  }
+}
+

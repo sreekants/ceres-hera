@@ -1,0 +1,26 @@
+{
+	"Settings":{
+			"Regulators":"Temperature,SoilMoisture,Timer"
+		},
+
+	"Regulator":{
+		"Temperature":{
+			"StateMachine":"Temperature.fsm",
+			"Model":"Math.Interpolator",
+			"ModelData":"Temperature.csv"
+		},
+
+		"SoilMoisture":{
+			"StateMachine":"SoilMoisture.fsm",
+			"Model":"",
+			"ModelData":""
+		},
+
+		"Timer":{
+			"StateMachine":"Timer.fsm",
+			"Model":"",
+			"ModelData":""
+		}
+	}
+}
+

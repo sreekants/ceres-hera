@@ -1,0 +1,24 @@
+{
+  "START": {
+    "temp_high": "ON",
+    "temp_low": "START",
+    "suspend": "STOP",
+    "error": "ERROR"
+  },
+  "ON": {
+    "temp_low": "OFF",
+    "suspend": "STOP",
+    "time_out": "OFF",
+    "error": "ERROR"
+  },
+  "OFF": {
+    "temp_high": "ON",
+    "suspend": "STOP",
+    "error": "ERROR"
+  },
+  "STOP": {
+    "play": "START"
+  },
+  "ERROR": {
+  }
+}

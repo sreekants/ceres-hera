@@ -1,0 +1,19 @@
+; Name: 		node.ini
+; Description: 	Build file for 'node' app files. This file includes all the build instructions
+;		to generate an single Arduino source file from other sources.
+
+
+[Compiler]
+OutputFile=ceres.node.h
+Debug=True
+UndefMacro=_WIN32,UNIX,_UNIX,__MINGW32__
+DefineMacro=_ARDUINO,_CERES
+Include=$(EMPACT_DIR)\code,$(CERES_DIR)\platform\code,$(CERES_DIR)\node\code,$(EXTERNAL_SRC)\lua\src,$(EXTERNAL_SRC)\gdbm
+
+
+[FileList]
+Exclude=exclude.txt
+
+[Source]
+ALL=empact.h,node.h,liblua.h
+

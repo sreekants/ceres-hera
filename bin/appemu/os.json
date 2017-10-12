@@ -1,0 +1,44 @@
+{
+	"OperatingSystem":{
+		"SystemRoot":"."
+	},
+	
+	"Subsystems":{
+		"Modules":"ObjectManager,DeviceManager,VirtualMachineHost,FileSystemManager,StorageManager,NetworkManager",
+		"ObjectManager":{
+			"ImagePath":"$(SYSTEM_ROOT)/com.dll",
+			"Enabled":true,
+			"IPCPort":"tcp://*:18001"
+		},
+			
+		"DeviceManager":{
+			"ImagePath":"$(SYSTEM_ROOT)/cdvm.dll",
+			"Enabled":true,
+			"IPCPort":"tcp://*:18001"
+		},
+
+		"StorageManager":{
+			"ImagePath":"$(SYSTEM_ROOT)/csm.dll",
+			"Enabled":true,
+			"IPCPort":"tcp://*:18001"
+		},
+		
+		"NetworkManager":{
+			"ImagePath":"$(SYSTEM_ROOT)/cnm.dll",
+			"Enabled":true,
+			"IPCPort":"tcp://*:18001"
+		},
+		
+		"VirtualMachineHost":{
+			"ImagePath":"$(SYSTEM_ROOT)/cah.dll",
+			"Enabled":true,
+			"IPCPort":"tcp://*:18001"
+		},
+		
+		"FileSystemManager":{
+			"ImagePath":"$(SYSTEM_ROOT)/cfs.dll",
+			"Enabled":true,
+			"IPCPort":"tcp://*:18001"
+		}
+	}
+}
