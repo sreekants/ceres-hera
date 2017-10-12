@@ -34,7 +34,9 @@ We are now optimistic that the objectives can be achieved. However, we will need
 
 *Status - Architecture unsatisfactory. (as of Oct 12, 2017)*
 
-A prototypical version of Hera has been developed as part of Ceres (version 0.3). This however has not achieved our design goals. The implementation of Ceres on ESP8266, our target platform needs to be significantly optimized. Memory limitations on the ESP8266 significantly curtails the implementation of our solution. We are looking into topograpical, architectural and/or platform (move to ESP32) changes to work around the limitations. The current image is unstable because it uses 78% of the global memory. The Hera version will need to be trimmed down by another 20% for it to be considered stable.
+A prototypical version of Hera has been developed as part of Ceres (version 0.3). This however has not achieved our design goals. The implementation of Ceres on ESP8266, our target platform needs to be significantly optimized. Memory limitations on the ESP8266 significantly curtails the implementation of our solution. We are looking into topograpical, architectural and/or platform (move to ESP32) changes to work around the limitations. 
+
+Hera now involves over 120k LOC. As such, the current image is unstable because it uses 78% of the global memory. The Hera version will need to be trimmed down by another 20% for it to be considered stable. The next version of the software, available by Jan 2018 will be a significantly slimmed down version of this operating system.
 
 We are abandoning our current design and going back to the drawing board. 
 
