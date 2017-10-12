@@ -56,7 +56,10 @@ Included in this package are:
 ## Project Outline
 For an outline of the project description, checkout the wiki page on [sourceforge](https://sourceforge.net/p/ceres-os/wiki/Home/).
 
-
+## Contact
+For more details, contact us at: 
+* sreekant.sreedharan at yahoo.com or 
+* msureshkumars12 at gmail.com
 
 ## Releated Links
 * [Ceres Farm Operating System - Project Profile](https://www.openhub.net/p/ceres-os)
