@@ -4,7 +4,7 @@ This is a demo package of the Hera release of the [Ceres farm operating system](
 The Ceres project is an exploratory experiment to figure out a low-cost turnkey infrastructure on a national scale can avert the scourge of climate change in the poorest of countries around the world. Although this is an Indian story, there is a resonance of the same challenges across Equatorial & Sub-Saharan Africa, South-Asia, Latin America & South East Asia.
 
 ## Introduction
-The Hera release is an exploratory experiment to figure out what kind of a low-cost IoT infrastructure is required to delopy AI-based precision farming across farms in emerging countries. The experiments in architecture, platforms & technologies here, are the intial steps toward a highly distributed, remotely deployable IoT host operating system running on a broad set of real-time OS (including Arduino, RTOS, Windows-Embedded & Linux), operating in devices spread across farms in the emerging countries.
+The Hera release is an exploratory experiment to figure out what kind of a low-cost IoT infrastructure is required to delopy AI-based precision farming across farms in emerging countries. The experiments in architecture, platforms & technologies here, are the intial steps toward a highly distributed, remotely deployable IoT hosted operating system running on a broad set of real-time OS (including Arduino, RTOS, Windows-Embedded & Linux), operating in devices spread across farms in the emerging countries.
 
 ### Related Reading
 #### Artificial Intelligence & IoT
@@ -30,7 +30,7 @@ Hera is a feasibility study for Zeus, that answers the following questions:
 We are now optimistic that the objectives can be achieved. However, we will need to significantly modify our original architecture.
 
 ## Status
-### Phase 1 - Skunkworks/Technology Evaluation (Aug-Oct 2017)
+### Phase 1 - Hera Release: Technology Evaluation (Aug-Oct 2017)
 
 *Status - Architecture unsatisfactory. (as of Oct 12, 2017)*
 
@@ -40,10 +40,11 @@ Hera now involves over 120k LOC. As such, the current image is unstable because 
 
 We are abandoning our current design and going back to the drawing board. 
 
-### Phase 2 - Hera Re-Implementation (Jan-Apr 2018)
+### Phase 2 - Zeus Release: Hera Re-Implementation (Jan-Apr 2018)
 
 *Status - Unplanned (as of Oct 12, 2017)* 
 
+The focus will be on the rearchitecture of Hera, for a lean, stable and scalable version of the operating system, ready for pilot deployment in up to 50 farms across India by Q3'18.
 
 ## Package
 Included in this package are: 
@@ -52,6 +53,13 @@ Included in this package are:
 
 ## Concept 
 ![Concept diagram](https://ceres-os.sourceforge.io/docs/releases/images/Concept-Diagram-small.png)
+
+## Components
+* Microkernel 
+* Cooperative multi-tasking process manager
+* Lua virtual machine runtime.
+* Windows & Arduino port
+* RAD (appemu) application simulation tool.
 
 ## Project Outline
 For an outline of the project description, checkout the wiki page on [sourceforge](https://sourceforge.net/p/ceres-os/wiki/Home/).
