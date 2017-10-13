@@ -1,10 +1,10 @@
 # Ceres (Hera-Release)
 This is a demo package of the Hera release of the [Ceres farm operating system](https://www.openhub.net/p/ceres-os). 
 
-The Ceres project is an exploratory experiment to figure out a low-cost turnkey infrastructure in a national scale can avert the scourge of climate change in the poorest of countries around the world. Although this is an Indian story, there is a resonance of the same challenges across Equatorial & Sub-Saharan Africa, South-Asia, Latin America & South East Asia.
+The Ceres project is an exploratory experiment to figure out a low-cost turnkey infrastructure on a national scale can avert the scourge of climate change in the poorest of countries around the world. Although this is an Indian story, there is a resonance of the same challenges across Equatorial & Sub-Saharan Africa, South-Asia, Latin America & South East Asia.
 
 ## Introduction
-The Hera release is an exploratory experiment to figure out what kind of a low-cost IoT infrastructure is required to delopy AI-based precision farming across farms in emerging countries. The experiments in architecture, platforms & technologies here, are the intial steps toward a highly distributed, remotely deployable IoT host operating system running on a broad set of real-time OS (including Arduino, RTOS, Windows-Embedded & Linux), spread across farms in the emerging countries.
+The Hera release is an exploratory experiment to figure out what kind of a low-cost IoT infrastructure is required to delopy AI-based precision farming across farms in emerging countries. The experiments in architecture, platforms & technologies here, are the intial steps toward a highly distributed, remotely deployable IoT host operating system running on a broad set of real-time OS (including Arduino, RTOS, Windows-Embedded & Linux), operating in devices spread across farms in the emerging countries.
 
 ### Related Reading
 #### Artificial Intelligence & IoT
@@ -56,7 +56,9 @@ Included in this package are:
 ## Project Outline
 For an outline of the project description, checkout the wiki page on [sourceforge](https://sourceforge.net/p/ceres-os/wiki/Home/).
 
-## Contact
+## Join Us
+We are building a global network of experts to tackle an impossible challenge. We could use your help. So join us.
+
 For more details, contact us at: 
 * sreekant.sreedharan at yahoo.com or 
 * msureshkumars12 at gmail.com
